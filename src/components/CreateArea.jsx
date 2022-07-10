@@ -52,7 +52,7 @@ function CreateArea(props) {
           placeholder="Take a note..."
           rows="3"
         /> : null}
-        {animate ? <Zoom in={true}><Fab onClick={submitNote}><AddIcon /></Fab></Zoom> : null}
+        {animate ? <Zoom in={true}><Fab color='secondary' onClick={submitNote}><AddIcon /></Fab></Zoom> : null}
       </form>
     </div>
   );
